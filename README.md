@@ -34,7 +34,7 @@ Traducción y ejecución en JavaScript
 
 Abrir una terminal (puede ser CMD, PowerShell o Git Bash) en tu ordenador.
 Despues cloná el repositorio del siguiente modo, en la terminal escribe:
-git clone
+git clone https://github.com/LuksVidela/51148.git
 
 O bien descargando el archivo, y importarlo a Visual Studio.
 una vez dentro, le aparecera la carpeta '51148' que contien cuatro archivos 'input' de ejemplos,
