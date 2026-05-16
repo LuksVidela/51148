@@ -1,0 +1,5 @@
+cola MiCola {
+
+insertar(10)!
+
+}

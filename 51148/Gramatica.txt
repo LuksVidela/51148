@@ -1,0 +1,29 @@
+<programa> ::= "cola" <nombre> "{" <comandos> "}"
+
+<comandos> ::= { <operación> }
+
+<operación> ::= <encolar> | <desencolar> | <verPrimero> | <crear>
+
+<crear> ::= "crear" "(" <lista> ")" "!"
+
+<encolar> ::= "encolar" "(" <valor> ")" "!"
+
+<desencolar> ::= "desencolar" "(" ")" "!"
+
+<verPrimero> ::= "verPrimero" "(" ")" "!"
+
+<valor> ::= <numero> | <texto>}
+
+<lista> ::= "[" [ <valor> { "," <valor> }*] "]"
+
+<numero> ::= {<digito>+}*
+
+<texto> ::= '"' <carácter>* '"'
+
+<dígito> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+<carácter> ::= <letra> | <dígito> | " " |  <símbolo>
+
+<letra> ::= "a" | "b" | ... | "z" | "A" | "B" | ... | "Z"
+
+<símbolo> ::= "." | "," | "!" | "?" | ":" | "'"

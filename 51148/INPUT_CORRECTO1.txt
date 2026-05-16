@@ -1,0 +1,11 @@
+cola MiCola {
+
+crear([10,20,30])!
+
+encolar(40)!
+
+verPrimero()!
+
+desencolar()!
+
+}

@@ -1,0 +1,9 @@
+cola ColaTextos {
+
+crear(["hola","mundo"])!
+
+encolar("nuevo elemento")!
+
+verPrimero()!
+
+}
